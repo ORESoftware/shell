@@ -13,5 +13,5 @@ ores_shell_ls(){
   ls "$HOME/.oresoftware/bash";
 }
 
-export -f ores_re_source;
+export -f ores_shell_re_source;
 export -f ores_shell_ls;
