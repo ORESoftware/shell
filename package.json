@@ -1,0 +1,37 @@
+{
+  "name": "@oresoftware/shell",
+  "version": "0.0.102",
+  "description": "Semver-oriented TypeScript library skeleton.",
+  "main": "dist/index.js",
+  "bin": {
+    "xxx-TODO-shell": "dist/cli.js"
+  },
+  "types": "dist/index.d.ts",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "test": "suman test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/your-org/shell.git"
+  },
+  "keywords": [
+    "typescript",
+    "library",
+    "skeleton",
+    "scaffold"
+  ],
+  "author": "TODO Yo.Mama",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "bugs": {
+    "url": "https://github.com/your-org/shell/issues"
+  },
+  "homepage": "https://github.com/your-org/shell#readme",
+  "dependencies": {
+    "gmx": "latest"
+  },
+  "devDependencies": {
+    "@types/core-js": "^0.9.46",
+    "@types/node": "^9.6.2"
+  }
+}
