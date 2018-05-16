@@ -1,6 +1,6 @@
 {
   "name": "@oresoftware/shell",
-  "version": "0.0.103",
+  "version": "0.0.104",
   "description": "Semver-oriented TypeScript library skeleton.",
   "main": "dist/index.js",
   "scripts": {
@@ -22,10 +22,7 @@
     "url": "https://github.com/your-org/shell/issues"
   },
   "homepage": "https://github.com/your-org/shell#readme",
-  "dependencies": {
-    "gmx": "latest",
-    "r2g": "latest"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@types/core-js": "^0.9.46",
     "@types/node": "^9.6.2"
