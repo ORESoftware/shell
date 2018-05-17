@@ -22,8 +22,6 @@
     "url": "https://github.com/ORESoftware/shell/issues"
   },
   "homepage": "https://github.com/ORESoftware/shell#readme",
-  "dependencies": {
-  },
-  "devDependencies": {
-  }
+  "dependencies": {},
+  "devDependencies": {}
 }
