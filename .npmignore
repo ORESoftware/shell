@@ -19,6 +19,7 @@ src
 suman.conf.js
 
 ### matching
+*.tgz
 *.log
 *.md
 tsconfig*.json
