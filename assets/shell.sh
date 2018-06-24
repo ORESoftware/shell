@@ -2,8 +2,15 @@
 
 # https://unix.stackexchange.com/questions/17717/refer-to-a-file-under-the-same-directory-of-a-script-found-in-path
 
-for f in "$HOME/.oresoftware/bash/"*; do echo "$f" && . "$f"; done
+export ores_gray='\033[1;30m'
+export ores_magenta='\033[1;35m'
+export ores_cyan='\033[1;36m'
+export ores_orange='\033[1;33m'
+export ores_green='\033[1;32m'
+export ores_no_color='\033[0m'
 
+### load/source all adjacent shell scripts
+for f in "$HOME/.oresoftware/bash/"*; do echo "$f" && . "$f"; done
 
 ores_shell_re_source(){
   for f in "$HOME/.oresoftware/bash/"*; do echo "$f" && . "$f"; done
