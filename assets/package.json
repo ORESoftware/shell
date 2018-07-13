@@ -23,5 +23,8 @@
   },
   "homepage": "https://github.com/ORESoftware/shell#readme",
   "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {},
+  "nlu":{
+    "linkable": false
+  }
 }
