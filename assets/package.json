@@ -26,5 +26,8 @@
   "devDependencies": {},
   "nlu":{
     "linkable": false
+  },
+  "r2g":{
+    "linkable": false
   }
 }
