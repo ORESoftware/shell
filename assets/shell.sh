@@ -13,7 +13,14 @@ export ores_no_color='\033[0m'
 for f in "$HOME/.oresoftware/bash/"*; do echo "$f" && . "$f"; done
 
 ores_shell_re_source(){
-  for f in "$HOME/.oresoftware/bash/"*; do echo "$f" && . "$f"; done
+  for f in "$HOME/.oresoftware/bash/"*; do
+
+      if [ "$oresoftware_env" == "local" ]; then
+        echo "$f" ;
+      fi
+
+      . "$f";  # source it
+  done
 }
 
 ores_shell_ls(){
