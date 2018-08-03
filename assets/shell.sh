@@ -10,18 +10,19 @@ export ores_green='\033[1;32m'
 export ores_no_color='\033[0m'
 
 ### load/source all adjacent shell scripts
-for f in "$HOME/.oresoftware/bash/"*; do echo "$f" && . "$f"; done
 
 ores_shell_re_source(){
   for f in "$HOME/.oresoftware/bash/"*; do
 
       if [ "$oresoftware_env" == "local" ]; then
-        echo "$f" ;
+            echo "$f";
       fi
 
       . "$f";  # source it
   done
 }
+
+ores_shell_re_source # run it
 
 ores_shell_ls(){
   ls "$HOME/.oresoftware/bash";

@@ -30,7 +30,7 @@
     "@types/core-js": "^0.9.46",
     "@types/node": "^9.6.16"
   },
-  "nlu":{
+  "nlu": {
     "linkable": true
   }
 }
